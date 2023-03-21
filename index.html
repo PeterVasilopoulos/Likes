@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,111 @@
     <title>Likes</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- Main -->
+    <div id="main">
+        <!-- Top Bar -->
+        <p id="top-bar">
+            Network
+        </p>
+        <!-- Your Feed -->
+        <p id="feed">
+            Your Feed
+        </p>
+        <!-- Content Area -->
+        <div id="content">
+            <!-- Content Left -->
+            <div id="content-left">
+                <!-- User Profile -->
+                <div id="user-profile">
+                    <!-- Avatar -->
+                    <div id="avatar">
+
+                    </div>
+                    <!-- Add Avatar -->
+                    <p id="add-avatar">
+                        <a href="">Add an avatar</a>
+                    </p>
+                    <!-- User Name -->
+                    <p id="user-name">
+                        James Doe
+                    </p>
+                </div>
+            </div>
+
+            <!-- Content Right -->
+            <div id="content-right">
+                <!-- Post 1 -->
+                <div class="post">
+                    <!-- Post Top -->
+                    <div class="post-top">
+                        <p class="pt-left">
+                            Neil M
+                        </p>
+                        <div class="pt-right">
+                            <p class="pt-like-count">
+                                <span id="post1-likes">9</span> like(s)
+                            </p>
+                            <button class="like-button" id="post1-button" onclick="increaseCounter1()">
+                                Like
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Post Bottom -->
+                    <p class="post-bottom">
+                        I just set up this new discord bot, let me know what
+                        you all think. <a href="">link</a>
+                    </p>
+                </div>
+                <!-- Post 2 -->
+                <div class="post">
+                    <!-- Post Top -->
+                    <div class="post-top">
+                        <p class="pt-left">
+                            Nichole K
+                        </p>
+                        <div class="pt-right">
+                            <p class="pt-like-count">
+                                <span id="post2-likes">12</span> like(s)
+                            </p>
+                            <button class="like-button" id="post2-button" onclick="increaseCounter2()">
+                                Like
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Post Bottom -->
+                    <p class="post-bottom">
+                        Just finished my <a href="">next comic</a>, check it out.
+                    </p>
+                </div>
+                <!-- Post 3 -->
+                <div class="post">
+                    <!-- Post Top -->
+                    <div class="post-top">
+                        <p class="pt-left">
+                            Jim R
+                        </p>
+                        <div class="pt-right">
+                            <p class="pt-like-count">
+                                <span id="post3-likes">9</span> like(s)
+                            </p>
+                            <button class="like-button" id="post3-button" onclick="increaseCounter3()">
+                                Like
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Post Bottom -->
+                    <p class="post-bottom">
+                        I can't stop listening to the <a href="">new album</a>
+                        Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
